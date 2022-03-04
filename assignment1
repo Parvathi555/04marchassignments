@@ -1,0 +1,14 @@
+s=[]
+l=[]
+c=0
+s=input().split()
+for i in s:
+    i=int(i)
+    if i not in l:
+        l.append(i)
+    else:
+        c=c+1 
+print(c)
+
+output:1 2 1 4
+       1
